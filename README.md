@@ -7,6 +7,9 @@ For this challenge, we are to help Tom with writing a code that analyzes the ele
 - total number of votes 
 - total number of votes for each candidate
 - winning candidate by popular vote
+- voter turnout for each county
+- county with highest voter turnout
+- percentage of votes that each county obtained from total
 ## Election Audit Results
 
 - How many votes were cast in this congressional election?
