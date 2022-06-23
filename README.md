@@ -55,5 +55,8 @@ For this challenge, we are to help Tom with writing a code that analyzes the ele
   ![image](https://user-images.githubusercontent.com/105028515/175404959-0287c7a7-bb81-4ce2-a7f1-32832c1ea4f8.png)
   ![image](https://user-images.githubusercontent.com/105028515/175404755-7eb487e6-8300-4b2e-90cd-a9ce444b8476.png)
 
+### Election Report Results
+![image](https://user-images.githubusercontent.com/105028515/175425295-02b2bb1d-f57a-479e-aaf2-4e2048d90576.png)
+
 ## Election Audit Summary
 The script written for this audit is able to be apploed to data from other elections as long as the data is formatted the same way. To do so, one would only need to correct the paths for the file_to_load and file_to_save at the beginning of the script. If the data is formatted differently, such as counties being in a different position, this script would still be useful but that would need to be corrected for. This script can also be built upon to determine other useful election stats. For example, we could identify the candidate with the least number of votes or the county with the least number of votes just by changing a few things. 
