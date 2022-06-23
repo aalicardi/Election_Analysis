@@ -18,7 +18,7 @@ For this challenge, we are to help Tom with writing a code that analyzes the ele
 
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
   
-   Of the 369,711 total votes in the precinct, 38,855 (10.5%) of votes were in Jefferson County, 306,055 (82.8%) in Denver County, and 24,801 (6.7%) were in Arapahoe County. 
+   Of the 369,711 total votes in the precinct, **38,855 (10.5%) of votes were in Jefferson County, 306,055 (82.8%) in Denver County, and 24,801 (6.7%) were in Arapahoe County.** 
    In our code, we determine this information by first creating a county_options list and a county_votes dictionary. Using an if-statements in our for loop, we are able to add counties to the county_options list while making sure not to repeat counties in this list. We start tracking the votes for each county in our county_votes dictionary. As our for loop continues through each row of data, it adds a vote to the appropriate counties vote count. 
    
    ![image](https://user-images.githubusercontent.com/105028515/175393996-5c740df4-280b-4907-8c89-fb9143c3c41d.png)
