@@ -26,8 +26,20 @@ For this challenge, we are to help Tom with writing a code that analyzes the ele
    
    To determine the percentage of votes for each county, we create a for loop that loops through the county_name variables in the county_vote dictionary. Within this loop, we defined a c_votes variable that reflects the total votes for each county, and a c_votes_percentage variable that reflects percentage of votes for each county. The percentage is determined by diviving the v_votes variable by the total_votese and multiplying by 100. 
    
+   ![image](https://user-images.githubusercontent.com/105028515/175394704-6cbe617c-0aae-4d1c-b7b1-5e3246862468.png)
+
+   
 - Which county had the largest number of votes?
-  -
+   The county with the largest number of votes was **Denver County.** 
+   
+   This was determined in our code by using a decision statement comparing the number of votes each county received within our for loop that loops through the county_name variables in the county_vote dictionary. An if statement looks at if the first vote count for a county, c_votes, is greater than the winning_county_count variable which we previously set equal to zero, and if so, it changes the value of the winning_county_county = to the v_votes variable for that county and set the winining_county variable equal to the appropriate county. By the end of the loop, the winning_county_count will be equal to the most number of votes received by a county and the winning_county variable will be equal to the county with the most votes.
+   
+   ![image](https://user-images.githubusercontent.com/105028515/175399798-f2a1811f-1d60-4636-96f8-c1f4cd0f2224.png)
+
+   ![image](https://user-images.githubusercontent.com/105028515/175399667-88ad97f5-1c18-44ef-8ae2-ff86f7fdca90.png)
+
+   
+   
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
   -
 - Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
